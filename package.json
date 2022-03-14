@@ -1,0 +1,36 @@
+{
+  "name": "code-solutions-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code exercise solutions.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Learning-Fuze/code-solutions-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Learning-Fuze/code-solutions-template/issues"
+  },
+  "homepage": "https://github.com/Learning-Fuze/code-solutions-template#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "markuplint": "^1.11.4",
+    "react": "^17.0.2",
+    "stylelint": "^14.3.0",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-standard": "^24.0.0"
+  }
+}
