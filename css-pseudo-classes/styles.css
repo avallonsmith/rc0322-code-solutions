@@ -1,0 +1,17 @@
+.submit:hover {
+  background-color: black;
+  color: white;
+}
+
+.butt {
+  padding: 10px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
