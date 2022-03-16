@@ -1,0 +1,64 @@
+* {
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+.bold {
+  font-weight: 600;
+  color: #252424;
+}
+
+h3 {
+  color: #f39491;
+  letter-spacing: 3px;
+}
+
+.textbox {
+  border-radius: 4px;
+  border: solid 2px #c6c8c8;
+  width: 400px;
+  height: 30px;
+}
+
+button {
+  background-color: #ec5d57;
+  color: white;
+  border-radius: 14px;
+  border: none;
+  padding: 5px 15px;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+label {
+  font-size: x-small;
+}
+
+#dropbox {
+  background-color: #f3f3f3;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+}
+
+body {
+  text-align: center;
+}
+
+.email-title {
+  padding-right: 310px;
+}
+
+.name-title {
+  padding-right: 365px;
+  margin-top: 10px;
+}
+
+.where-title {
+  padding-right: 270px;
+  margin-top: 10px;
+}
+
+.how-title {
+  padding-right: 90px;
+  margin-top: 10px;
+}
