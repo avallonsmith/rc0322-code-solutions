@@ -1,0 +1,26 @@
+* {
+  font-family: karla, sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.letter-space {
+  letter-spacing: 2px;
+}
+
+body {
+  text-align: center;
+}
+
+.p-pad {
+  padding-right: 50px;
+  padding-left: 50px;
+  line-height: 25px;
+}
+
+p {
+  color: gray;
+}
