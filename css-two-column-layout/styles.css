@@ -1,0 +1,97 @@
+* {
+  font-family: karla, sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.letter-space {
+  letter-spacing: 3px;
+}
+
+.display {
+  display: flex;
+}
+
+body {
+  margin: auto;
+  text-align: left;
+}
+
+.p-pad {
+  padding-right: 100px;
+  padding-left: 100px;
+  line-height: 25px;
+  margin-top: 0;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  color: #d55e58;
+  border: 2px solid #d55e58;
+  padding: 5px 25px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.small-p {
+  color: gray;
+  font-size: 12.5px;
+  line-height: 18px;
+}
+
+.column-one-half {
+  flex-basis: calc(100% / 2);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.column-one-fourth {
+  flex-basis: (100% / 4);
+}
+
+.column-three-fourths {
+  flex-basis: calc(100% * 3 / 4);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+img {
+  width: 80%;
+}
+
+.software {
+  margin-right: 25px;
+}
+
+.practice {
+  margin-left: 25px;
+}
+
+.circumstance {
+  margin-left: 25px;
+}
+
+.data {
+  margin-right: 25px;
+}
