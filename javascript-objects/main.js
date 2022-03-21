@@ -24,6 +24,9 @@ console.log('value of vehicle:', vehicle);
 vehicle['color'] = 'black';
 console.log('value of color:', vehicle['color']);
 
+vehicle['isConvertible'] = false;
+console.log('value of isConvertible:', vehicle['isConvertible']);
+
 var pet = {
   name: 'Snorlax',
   type: 'Pokemon'
