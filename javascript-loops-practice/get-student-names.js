@@ -1,8 +1,8 @@
 /* exported getStudentNames */
 function getStudentNames(students) {
-  var studentName = [];
+  var student = [];
   for (var i = 0; i < students.length; i++) {
-    studentName.push(students[i]);
+    student.push(students[i].name);
   }
-  return studentName;
+  return student;
 }
