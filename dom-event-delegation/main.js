@@ -6,7 +6,7 @@ function callBack(event) {
   if (event.target.tagName === 'BUTTON') {
     var $taskListItem = event.target.closest('.task-list-item');
     console.log('.task-list-item', $taskListItem);
-    $taskListItem.remove('.task-list-item');
+    $taskListItem.remove();
   }
 }
 
