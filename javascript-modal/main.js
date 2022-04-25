@@ -1,26 +1,19 @@
 var $container = document.querySelector('.container');
-var $modalButton = document.querySelector('.modal-button');
+var $modalButton = document.querySelector('.blue-button');
 var $surveyButton = document.querySelector('.no-button');
-// console.log($modalButton);
-// console.log($surveyButton);
-
-function modalButton(event) {
-  if ($container.classList.contains('.hide-window')) {
-    $container.className = 'container hide-window';
+function modelBtn(event) {
+  if ($container.classList.contains('.hidden')) {
+    $container.className = 'container hidden';
   } else {
     $container.className = 'container';
   }
-  // console.log('click');
 }
-
-function survey(event) {
-  if ($container.classList.contains('.hide-window')) {
+function surveyNo(event) {
+  if ($container.classList.contains('.hidden')) {
     $container.className = 'container';
   } else {
-    $container.className = 'container hide-window';
+    $container.className = 'container hidden';
   }
-  // console.log('click');
 }
-
-$modalButton.addEventListener('click', modalButton);
-$surveyButton.addEventListener('click', survey);
+$modalButton.addEventListener('click', modelBtn);
+$surveyButton.addEventListener('click', surveyNo);
