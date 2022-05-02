@@ -45,15 +45,11 @@ const library = [
   }
 ];
 
-const { title: title3, author: author3, libraryID: libraryID3 } = library[0];
-const { title: title4, author: author4, libraryID: libraryID4 } = library[1];
-const { title: title5, author: author5, libraryID: libraryID5 } = library[2];
-
-const thirdBook = `The title of the book is ${title3}, the author is ${author3}, and the library ID is ${libraryID3}.`;
-const forthBook = `The title of the book is ${title4}, the author is ${author4}, and the library ID is ${libraryID4}.`;
-const fifthBook = `The title of the book is ${title5}, the author is ${author5}, and the library ID is ${libraryID5}.`;
+const [book3, book4, book5] = library;
+const [, , , book6] = library;
 
 console.log(library);
-console.log(thirdBook);
-console.log(forthBook);
-console.log(fifthBook);
+console.log('book3:', book3);
+console.log('book4:', book4);
+console.log('book5:', book5);
+console.log('book6:', book6);
