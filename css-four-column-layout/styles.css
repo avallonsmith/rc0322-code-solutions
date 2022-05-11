@@ -1,0 +1,54 @@
+* {
+  font-family: Barlow, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-full {
+  text-align: center;
+  justify-content: center;
+}
+
+.col-forth {
+  flex-basis: calc(100% / 4);
+}
+
+.main-img {
+  padding: 0 50px;
+}
+
+.icon-size {
+  padding: 0 10%;
+}
+
+.h3-padding {
+  padding: 0 140px;
+  width: 100%;
+}
+
+.p-padding {
+  padding: 0 100px;
+  width: 100%;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+img {
+  width: 100%;
+}
+
+h2 h3 {
+  font-weight: bold;
+}
