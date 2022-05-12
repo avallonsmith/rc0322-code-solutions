@@ -4,13 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript Carousel</title>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+  <div class="container">
+    <div class="row center">
+      <div class="col-third">
+        <div class="left-arrow">
+          <i id="left-arrow" class="fas fa-angle-left icon-size"></i>
+        </div>
+      </div>
+      <div class="col-third">
+        <div class="image">
+          <img id="carousel-image" src="images/001.png">
+        </div>
+      </div>
+      <div class="col-third">
+        <div class="right-arrow">
+          <i id="right-arrow" class="fas fa-angle-right icon-size"></i>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col-full">
+        <div id="cycle-container">
+          <i id="c-1" class="cycle fas fa-circle circle-display"></i>
+          <i id="c-2" class="cycle far fa-circle circle-display"></i>
+          <i id="c-3" class="cycle far fa-circle circle-display"></i>
+          <i id="c-4" class="cycle far fa-circle circle-display"></i>
+          <i id="c-5" class="cycle far fa-circle circle-display"></i>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
