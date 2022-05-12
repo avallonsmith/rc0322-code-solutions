@@ -1,4 +1,4 @@
 select *
   from "films",
-  order by "replacementCost" asc,
+  order by "replacementCost" desc,
   limit 10;

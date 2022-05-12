@@ -1,3 +1,3 @@
 select "isActive"
   from "customers"
-  order by "false" desc;
+  where "isActive" = false;
