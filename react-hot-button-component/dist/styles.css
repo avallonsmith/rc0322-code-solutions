@@ -1,0 +1,33 @@
+.no-click {
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.no-click:hover {
+  cursor: pointer;
+}
+
+.three-clicks {
+  background-color: #351c75;
+}
+
+.six-clicks {
+  background-color: #674ea7;
+}
+
+.nine-clicks {
+  background-color: #e06666;
+}
+
+.twelve-clicks {
+  background-color: #f6b26b;
+}
+
+.fifteen-clicks {
+  background-color: #ff0;
+}
+
+.eighteen-clicks {
+  background-color: #fff;
+}
