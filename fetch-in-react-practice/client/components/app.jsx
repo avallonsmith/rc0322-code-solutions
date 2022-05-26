@@ -47,9 +47,9 @@ export default class App extends React.Component {
       body: JSON.stringify(newTodo)
     })
       .then(response => response.json())
-      .then(todos => {
+      .then(data => {
         const todosCopy = this.state.todos.slice();
-        todosCopy.push('data');
+        todosCopy.push(data);
         this.setState({ todos: todosCopy });
       });
 
@@ -77,6 +77,20 @@ export default class App extends React.Component {
      * TIP: Be sure to SERIALIZE the updates in the body with JSON.stringify()
      * And specify the "Content-Type" header as "application/json"
      */
+    const index = this.state.todos.findIndex(todo => todo.todoId === todoId);
+    const todo = this.state.todos[index];
+    const forUpdate = { isCompleted: !todo.isCompleted };
+    fetch(`/api/todos/${todoId}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(forUpdate)
+    })
+      .then(response => response.json())
+      .then(data => {
+        const todosCopy = this.state.todos.slice();
+        todosCopy.splice(index, 1, data);
+        this.setState({ todos: todosCopy });
+      });
   }
 
   render() {
