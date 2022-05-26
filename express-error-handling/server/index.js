@@ -37,10 +37,7 @@ app.post('/api/grades', (req, res, next) => {
     throw new ClientError(400, 'gradeId must be a positive integer');
   }
   if (!name || !course) {
-    res.status(400).json({
-      error: 'name, course, and score are required fields'
-    });
-    return;
+    throw new ClientError(400, 'gradeId must be a positive integer');
   }
   const sql = `
     insert into "grades" ("name", "course", "score")
