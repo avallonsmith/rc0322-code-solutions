@@ -31,7 +31,6 @@ app.post('/api/notes', (req, res) => {
     newNote.content = content;
     data.notes[data.nextId] = newNote;
     data.nextId++;
-    data.nextId++;
     fs.writeFile('./data.json', JSON.stringify(data, null, 2), 'utf8', err => {
       if (err) {
         res.status(500).json('error: an unexpected error occured');
