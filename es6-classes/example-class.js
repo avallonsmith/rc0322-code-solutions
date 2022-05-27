@@ -1,7 +1,4 @@
-function ExampleClass() {
-
-}
-
+class ExampleClass { }
 const example = new ExampleClass();
 
 console.log('typeof example:', typeof example);
