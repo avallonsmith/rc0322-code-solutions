@@ -69,16 +69,19 @@ app.post('/api/grades', (req, res) => {
     res.status(400).json({
       error: 'Missing \'course\' information.'
     });
+    return;
   }
   if (!name) {
     res.status(400).json({
       error: 'Missing \'name\' information.'
     });
+    return;
   }
   if (!score) {
     res.status(400).json({
       error: 'Missing \'score\' information.'
     });
+    return;
   }
   const sql = `
   insert into "grades" ("name", "course", "score")
