@@ -106,16 +106,19 @@ app.put('/api/grades/:gradeId', (req, res) => {
     res.status(400).json({
       error: 'Missing new \'course\' information.'
     });
+    return;
   }
   if (!name) {
     res.status(400).json({
       error: 'Missing new \'name\' information.'
     });
+    return;
   }
   if (!score) {
     res.status(400).json({
       error: 'Missing new \'score\' information.'
     });
+    return;
   }
   const gradeId = Number(req.params.gradeId);
   if (!Number.isInteger(gradeId) || gradeId <= 0) {
